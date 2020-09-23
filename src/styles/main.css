@@ -1,0 +1,33 @@
+body {
+  background-image: url(../logo/rocket.png);
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-size: cover;
+}
+.notes {
+  border: 3px solid red;
+  width: 95%;
+  height: 800px;
+  margin: auto;
+  margin-top: 30px;
+}
+.note {
+  width: 200px;
+  height: 320px;
+  margin: 10px;
+  padding: 20px;
+
+  background: linear-gradient(
+    0deg,
+    #00ffff 0%,
+    rgba(0, 200, 255, 0.7917542016806722) 27%
+  );
+  border-radius: 6px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
