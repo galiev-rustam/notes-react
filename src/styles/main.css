@@ -1,33 +1,27 @@
 body {
-  background-image: url(../logo/rocket.png);
+  /* background-image: url(../logo/rocket.png); */
+  background: #ffefba; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ffefba
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ffefba
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
-  background-size: cover;
+  background-size: cover; */
 }
 .notes {
-  border: 3px solid red;
+  border: 0.5px solid rgb(233, 177, 177);
   width: 95%;
   height: 800px;
-  margin: auto;
+  /* margin: auto; */
   margin-top: 30px;
-}
-.note {
-  width: 200px;
-  height: 320px;
-  margin: 10px;
-  padding: 20px;
-
-  background: linear-gradient(
-    0deg,
-    #00ffff 0%,
-    rgba(0, 200, 255, 0.7917542016806722) 27%
-  );
-  border-radius: 6px;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin-left: 100px;
 }
