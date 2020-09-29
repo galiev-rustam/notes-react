@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import trash from "../logo/trash.svg";
 import style from "./note.module.css";
 
-class App extends React.Component {
+class Note extends React.Component {
   constructor() {
     super();
     this.state = {};
@@ -20,4 +20,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default Note;

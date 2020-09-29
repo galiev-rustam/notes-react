@@ -17,7 +17,7 @@ body {
   background-size: contain;
   background-size: cover; */
 }
-.notes {
+.main_content {
   border: 0.5px solid rgb(233, 177, 177);
   width: 95%;
   height: 800px;

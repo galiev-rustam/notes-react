@@ -1,0 +1,39 @@
+.main_menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 6%;
+  height: 400px;
+  position: absolute;
+  top: 50px;
+}
+.main_settings img,
+.main_menu .account img,
+.main_menu .telegram img,
+.main_menu .menu_notes img {
+  width: 40px;
+  height: 40px;
+}
+.account,
+.main_settings,
+.main_menu .menu_notes {
+  margin-bottom: 10px;
+}
+
+.account img:hover,
+.main_settings img:hover,
+.telegram img:hover,
+.main_menu .menu_notes img:hover {
+  background: #e0c97bf1;
+  border-radius: 55%;
+  cursor: pointer;
+}
+.account .active,
+.main_settings .active,
+.telegram .active,
+.main_menu .menu_notes .active {
+  background: #e0c97bf1;
+  box-shadow: 0px 4px 9px 10px #e0c97bf1;
+  border-radius: 55%;
+  cursor: pointer;
+}
