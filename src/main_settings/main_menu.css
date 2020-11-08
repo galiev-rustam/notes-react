@@ -33,7 +33,7 @@
 .telegram .active,
 .main_menu .menu_notes .active {
   background: #e0c97bf1;
-  box-shadow: 0px 4px 9px 10px #e0c97bf1;
+  box-shadow: 0px 0px 9px 10px #e0c97bf1;
   border-radius: 55%;
   cursor: pointer;
 }

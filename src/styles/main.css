@@ -25,3 +25,17 @@ body {
   margin-top: 30px;
   margin-left: 100px;
 }
+.create-icon,
+.trash-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+.notes {
+  margin: 20px;
+}
+.notes-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
